@@ -12,7 +12,7 @@
 
 
 // Put your function here!
-fn calculate_apple_price(i : i32) -> i32 {
+fn calculate_price_of_apples(i : i32) -> i32 {
     if i > 40 {
         i
     } else {
