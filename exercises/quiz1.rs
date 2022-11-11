@@ -13,13 +13,11 @@
 
 // Put your function here!
 fn calculate_apple_price(mut i : i32) -> i32 {
-    if i == 65 {
-        i *= 1
+    if i > 40 {
+        i
     } else {
-        i *= 2
+        i * 2
     }
-    
-    i
 }
 
 // Don't modify this function!
